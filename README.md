@@ -1,2 +1,2 @@
-# myawesomewebsite
-My awesome website
+# My Awesome Website
+More to come soon ! ;)
