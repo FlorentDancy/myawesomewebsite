@@ -3,7 +3,7 @@
 module.exports = {
 	app: {
 		title: 'myawesomewebsite',
-		description: 'Florent's personal website',
+		description: 'Florent personal website',
 		keywords: 'MongoDB, Express, AngularJS, Node.js'
 	},
 	port: process.env.PORT || 3000,
@@ -15,9 +15,11 @@ module.exports = {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.css',
 				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
+                'public/lib/fullpage.js/jquery.fullPage.css'
 			],
 			js: [
-				'public/lib/angular/angular.js',
+				'public/lib/jquery/dist/jquery.min.js',
+                'public/lib/angular/angular.js',
 				'public/lib/angular-resource/angular-resource.js', 
 				'public/lib/angular-cookies/angular-cookies.js', 
 				'public/lib/angular-animate/angular-animate.js', 
@@ -25,7 +27,10 @@ module.exports = {
 				'public/lib/angular-sanitize/angular-sanitize.js', 
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js',
-				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js'
+				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
+                'public/lib/fullpage.js/jquery.fullPage.min.js',
+                'public/lib/fullpage.js/vendors/jquery.easings.min.js',
+                'public/lib/fullpage.js/vendors/jquery.slimscroll.min.js'
 			]
 		},
 		css: [
