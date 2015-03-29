@@ -13,3 +13,34 @@
 .ng-valid.ng-dirty {
 	border-color: #78FA89;
 }
+.container{
+    width: 100%;
+    padding: 0;
+}
+header{
+    padding: 0 25px;
+}
+.section-header{
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.experience{
+    padding: 20px 50px;
+}
+.experience .logo{
+    max-width: 300px;
+    max-height: 200px;
+    float: right;
+}
+.flexbox-button{
+    padding: 1em 1em;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+}
+.sections-anchors{
+    margin-top: 50px;
+    text-transform: uppercase;
+}
