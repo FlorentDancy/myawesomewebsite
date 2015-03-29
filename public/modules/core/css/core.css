@@ -25,10 +25,11 @@ header{
     display: inline-block;
     padding-bottom: 10px;
 }
-.experience{
-    padding: 20px 50px;
+.slide{
+    padding: 20px 101px 20px 66px;
+    min-height: 460px;
 }
-.experience .logo{
+.slide .logo{
     max-width: 300px;
     max-height: 200px;
     float: right;
@@ -43,4 +44,7 @@ header{
 .sections-anchors{
     margin-top: 50px;
     text-transform: uppercase;
+}
+.fp-next{
+    right: 50px!important;
 }
